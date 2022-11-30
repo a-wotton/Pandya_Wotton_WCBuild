@@ -18,7 +18,7 @@ color: white;
 
 background-image: url("../images/background.webp");
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 }
 
 /* main header rules */
@@ -159,7 +159,7 @@ footer {
   left: 0;
 
   background-color: rgba(0, 0, 0, 0.85);
-  background-image: url('../images/Cap_LB_Bg.png');
+
   background-repeat: no-repeat;
 
   background-size: 55vh; /* 55% of the viewport height */
@@ -168,8 +168,15 @@ footer {
   display: none;
 }
 
-#lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
-
+#lightbox  { background-image: url('../images/cristiano-ronaldo-png-45104.png');}
+#lightbox2 { background-image: url('../images/atiba-hutchinson-2.png'); }
+#lightbox3 { background-image: url('../images/Thiago\ Silva\ -\ FootyRenders.png'); }
+#lightbox4 { background-image: url('../images/Lionel\ Messi\ -\ FootyRenders.png');
+              background-size:700px; }
+#lightbox5 { background-image: url('../images/Harry\ Kane\ -\ FootyRenders.png');
+              background-size: 300px;  }
+#lightbox6 { background-image: url('../images/Sergio\ Busquets\ -\ FootyRenders.png');
+              background-size: 400px; }
 .lightbox_close {
   position: relative;
   top: 20px;
