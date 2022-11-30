@@ -25,7 +25,7 @@ background-size: contain;
 header {
   position: sticky;
   top: 0;
-  display: flex;
+  display: flex; 
   justify-content: end;
 }
 
@@ -38,12 +38,14 @@ header {
 
 .characters li { 
   display: inline-block;
-  height: 220px;
+  height: 170px;
   margin: 10px 8px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   background-color: black;
 
-  text-align: left;
+  text-align: center;
 
   cursor: pointer;
 }
@@ -55,10 +57,46 @@ header {
 
 .characters li a { text-decoration: none; }
 
-.red_bumper {
+#portugal_bumper {
+  width: 100%;
+  height: 6px;
+  background-color: rgb(16, 176, 67);
+
+}
+
+#canada_bumper {
   width: 100%;
   height: 6px;
   background-color: red;
+
+}
+
+#brazil_bumper {
+  width: 100%;
+  height: 6px;
+  background-color: rgb(255, 255, 131);
+
+}
+
+#argentina_bumper {
+  width: 100%;
+  height: 6px;
+  background-color: rgb(60, 166, 233);
+
+}
+
+#england_bumper {
+  width: 100%;
+  height: 6px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+#spain_bumper {
+  width: 100%;
+  height: 6px;
+  background-color: #D4AF37;
+
 }
 
 article { 
