@@ -18,7 +18,7 @@ color: white;
 
 background-image: url("../images/background.webp");
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 }
 
 /* main header rules */
