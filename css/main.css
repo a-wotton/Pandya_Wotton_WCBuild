@@ -78,7 +78,7 @@ article p {
   font-size: 1.5em;
   line-height: 1.2;
 }
-
+/*
 .sprite {
   width: 150px;
   height: 150px;
@@ -93,6 +93,7 @@ article p {
 #widow { background-position: -750px 0; }
 
 .sprite:hover { background-position-y: -150px !important; }
+*/
 
 /* footer rules here */
 footer {
