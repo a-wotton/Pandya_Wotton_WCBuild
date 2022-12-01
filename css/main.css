@@ -32,13 +32,13 @@ header {
 #main-logo { width: 220px; padding: 10px 20px; margin-left: auto; }
 
 /* main rules here */
-#character-nav { margin-left: 30%; max-width: 60%; }
+#character-nav { margin-left: 30%; max-width: 50%; }
 
 .characters { list-style-type: none; }
 
 .characters li { 
   display: inline-block;
-  height: 170px;
+  height: 200px;
   margin: 10px 8px;
   font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,6 +48,12 @@ header {
   text-align: center;
 
   cursor: pointer;
+
+  transition: all 0.5s ease;
+}
+
+.characters li:hover {
+  border: solid 6px rgb(89, 89, 201);
 }
 
 .characters li h5 {
@@ -56,6 +62,8 @@ header {
 }
 
 .characters li a { text-decoration: none; }
+
+
 
 #portugal_bumper {
   width: 100%;
@@ -102,6 +110,27 @@ header {
 article { 
   padding: 20px;
   margin-left: 30%;
+}
+
+.characters span {
+  font-size: 18px;
+}
+
+input[type="checkbox"] {
+  position: relative;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "\2713";
+  background-color: rgb(154, 199, 238);
+  color: rgb(87, 87, 87);
+  font-size: 24px;
+  border: rgb(87, 87, 87) solid 2px;
+  border-radius: 50%;
+  padding: 4px 8px;
+  position: absolute;
+  left: 100px;
+  bottom: 150px;
 }
 
 /* select the h3 tag inside the article tag on the page */
@@ -189,6 +218,7 @@ footer {
 
   font-weight: bolder;
 }
+
 
 .lightbox_close:hover { opacity: 0.5; color: red; }
 
